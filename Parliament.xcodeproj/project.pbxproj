@@ -14,6 +14,19 @@
 		5EC3E4442BBC9E5C00513A03 /* ParliamentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E4432BBC9E5C00513A03 /* ParliamentTests.swift */; };
 		5EC3E44E2BBC9E5C00513A03 /* ParliamentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E44D2BBC9E5C00513A03 /* ParliamentUITests.swift */; };
 		5EC3E4502BBC9E5C00513A03 /* ParliamentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E44F2BBC9E5C00513A03 /* ParliamentUITestsLaunchTests.swift */; };
+		5EC3E45F2BBCA0AD00513A03 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E45E2BBCA0AD00513A03 /* HTTPDataDownloader.swift */; };
+		5EC3E4612BBCA24C00513A03 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5EC3E4602BBCA24C00513A03 /* .swiftlint.yml */; };
+		5EC3E4632BBCA2F600513A03 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E4622BBCA2F600513A03 /* APIError.swift */; };
+		5EC3E4652BBCABF800513A03 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E4642BBCABF800513A03 /* HTTPClient.swift */; };
+		5EC3E4672BBCAC2C00513A03 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E4662BBCAC2C00513A03 /* HTTPMethod.swift */; };
+		5EC3E46B2BBCAFEF00513A03 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E46A2BBCAFEF00513A03 /* Endpoint.swift */; };
+		5EC3E46D2BBCB16F00513A03 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E46C2BBCB16F00513A03 /* RequestBuilder.swift */; };
+		5EC3E46F2BBCB5DD00513A03 /* JSONDecoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E46E2BBCB5DD00513A03 /* JSONDecoder+Extension.swift */; };
+		5EC3E4762BBCBB6600513A03 /* ParliamentEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E4752BBCBB6600513A03 /* ParliamentEndpoint.swift */; };
+		5EC3E4782BBCBC4900513A03 /* ParliamantProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E4772BBCBC4900513A03 /* ParliamantProvider.swift */; };
+		5EC3E47B2BBCBEBD00513A03 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E47A2BBCBEBD00513A03 /* Club.swift */; };
+		5EC3E47D2BBCBEC700513A03 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E47C2BBCBEC700513A03 /* Member.swift */; };
+		5EC3E47F2BBCC61800513A03 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E47E2BBCC61800513A03 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,19 @@
 		5EC3E4492BBC9E5C00513A03 /* ParliamentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParliamentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC3E44D2BBC9E5C00513A03 /* ParliamentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParliamentUITests.swift; sourceTree = "<group>"; };
 		5EC3E44F2BBC9E5C00513A03 /* ParliamentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParliamentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EC3E45E2BBCA0AD00513A03 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
+		5EC3E4602BBCA24C00513A03 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		5EC3E4622BBCA2F600513A03 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		5EC3E4642BBCABF800513A03 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		5EC3E4662BBCAC2C00513A03 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		5EC3E46A2BBCAFEF00513A03 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		5EC3E46C2BBCB16F00513A03 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		5EC3E46E2BBCB5DD00513A03 /* JSONDecoder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extension.swift"; sourceTree = "<group>"; };
+		5EC3E4752BBCBB6600513A03 /* ParliamentEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParliamentEndpoint.swift; sourceTree = "<group>"; };
+		5EC3E4772BBCBC4900513A03 /* ParliamantProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParliamantProvider.swift; sourceTree = "<group>"; };
+		5EC3E47A2BBCBEBD00513A03 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		5EC3E47C2BBCBEC700513A03 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		5EC3E47E2BBCC61800513A03 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,7 @@
 		5EC3E4262BBC9E5B00513A03 = {
 			isa = PBXGroup;
 			children = (
+				5EC3E4602BBCA24C00513A03 /* .swiftlint.yml */,
 				5EC3E4312BBC9E5B00513A03 /* Parliament */,
 				5EC3E4422BBC9E5C00513A03 /* ParliamentTests */,
 				5EC3E44C2BBC9E5C00513A03 /* ParliamentUITests */,
@@ -94,6 +121,9 @@
 		5EC3E4312BBC9E5B00513A03 /* Parliament */ = {
 			isa = PBXGroup;
 			children = (
+				5EC3E4702BBCB5E800513A03 /* Extension */,
+				5EC3E45C2BBC9E8700513A03 /* Networking */,
+				5EC3E4792BBCBEA600513A03 /* Model */,
 				5EC3E4322BBC9E5B00513A03 /* ParliamentApp.swift */,
 				5EC3E4342BBC9E5B00513A03 /* ContentView.swift */,
 				5EC3E4362BBC9E5C00513A03 /* Assets.xcassets */,
@@ -127,6 +157,63 @@
 			path = ParliamentUITests;
 			sourceTree = "<group>";
 		};
+		5EC3E45C2BBC9E8700513A03 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E47E2BBCC61800513A03 /* APIClient.swift */,
+				5EC3E45D2BBCA03300513A03 /* Core */,
+				5EC3E4712BBCBA7900513A03 /* Provider */,
+				5EC3E4742BBCBB5500513A03 /* Endpoints */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5EC3E45D2BBCA03300513A03 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E45E2BBCA0AD00513A03 /* HTTPDataDownloader.swift */,
+				5EC3E4622BBCA2F600513A03 /* APIError.swift */,
+				5EC3E4642BBCABF800513A03 /* HTTPClient.swift */,
+				5EC3E4662BBCAC2C00513A03 /* HTTPMethod.swift */,
+				5EC3E46A2BBCAFEF00513A03 /* Endpoint.swift */,
+				5EC3E46C2BBCB16F00513A03 /* RequestBuilder.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5EC3E4702BBCB5E800513A03 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E46E2BBCB5DD00513A03 /* JSONDecoder+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5EC3E4712BBCBA7900513A03 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E4772BBCBC4900513A03 /* ParliamantProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		5EC3E4742BBCBB5500513A03 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E4752BBCBB6600513A03 /* ParliamentEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		5EC3E4792BBCBEA600513A03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E47A2BBCBEBD00513A03 /* Club.swift */,
+				5EC3E47C2BBCBEC700513A03 /* Member.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +224,7 @@
 				5EC3E42B2BBC9E5B00513A03 /* Sources */,
 				5EC3E42C2BBC9E5B00513A03 /* Frameworks */,
 				5EC3E42D2BBC9E5B00513A03 /* Resources */,
+				5EC3E4692BBCADA400513A03 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -215,6 +303,8 @@
 				Base,
 			);
 			mainGroup = 5EC3E4262BBC9E5B00513A03;
+			packageReferences = (
+			);
 			productRefGroup = 5EC3E4302BBC9E5B00513A03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC3E4612BBCA24C00513A03 /* .swiftlint.yml in Resources */,
 				5EC3E43A2BBC9E5C00513A03 /* Preview Assets.xcassets in Resources */,
 				5EC3E4372BBC9E5C00513A03 /* Assets.xcassets in Resources */,
 			);
@@ -252,13 +343,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EC3E4692BBCADA400513A03 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EC3E42B2BBC9E5B00513A03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC3E46F2BBCB5DD00513A03 /* JSONDecoder+Extension.swift in Sources */,
+				5EC3E47F2BBCC61800513A03 /* APIClient.swift in Sources */,
+				5EC3E46B2BBCAFEF00513A03 /* Endpoint.swift in Sources */,
 				5EC3E4352BBC9E5B00513A03 /* ContentView.swift in Sources */,
+				5EC3E4762BBCBB6600513A03 /* ParliamentEndpoint.swift in Sources */,
+				5EC3E4652BBCABF800513A03 /* HTTPClient.swift in Sources */,
+				5EC3E4672BBCAC2C00513A03 /* HTTPMethod.swift in Sources */,
+				5EC3E4632BBCA2F600513A03 /* APIError.swift in Sources */,
+				5EC3E47B2BBCBEBD00513A03 /* Club.swift in Sources */,
 				5EC3E4332BBC9E5B00513A03 /* ParliamentApp.swift in Sources */,
+				5EC3E47D2BBCBEC700513A03 /* Member.swift in Sources */,
+				5EC3E45F2BBCA0AD00513A03 /* HTTPDataDownloader.swift in Sources */,
+				5EC3E46D2BBCB16F00513A03 /* RequestBuilder.swift in Sources */,
+				5EC3E4782BBCBC4900513A03 /* ParliamantProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +548,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Parliament/Preview Content\"";
 				DEVELOPMENT_TEAM = VAS7WN5C52;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,6 +578,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Parliament/Preview Content\"";
 				DEVELOPMENT_TEAM = VAS7WN5C52;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

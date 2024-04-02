@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let api = APIClient()
+    @State private var clubs: [Club] = []
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(clubs) { club in
+            Text(club.id)
         }
-        .padding()
+        .task {
+            do {
+                clubs = try await api.parliamentProvider.clubs()
+            } catch {
+                print(error)
+            }
+        }
     }
 }
 
