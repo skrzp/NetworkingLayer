@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EC3E4332BBC9E5B00513A03 /* ParliamentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E4322BBC9E5B00513A03 /* ParliamentApp.swift */; };
+		5EC3E4352BBC9E5B00513A03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E4342BBC9E5B00513A03 /* ContentView.swift */; };
+		5EC3E4372BBC9E5C00513A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC3E4362BBC9E5C00513A03 /* Assets.xcassets */; };
+		5EC3E43A2BBC9E5C00513A03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC3E4392BBC9E5C00513A03 /* Preview Assets.xcassets */; };
+		5EC3E4442BBC9E5C00513A03 /* ParliamentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E4432BBC9E5C00513A03 /* ParliamentTests.swift */; };
+		5EC3E44E2BBC9E5C00513A03 /* ParliamentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E44D2BBC9E5C00513A03 /* ParliamentUITests.swift */; };
+		5EC3E4502BBC9E5C00513A03 /* ParliamentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3E44F2BBC9E5C00513A03 /* ParliamentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC3E4402BBC9E5C00513A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC3E4272BBC9E5B00513A03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC3E42E2BBC9E5B00513A03;
+			remoteInfo = Parliament;
+		};
+		5EC3E44A2BBC9E5C00513A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC3E4272BBC9E5B00513A03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC3E42E2BBC9E5B00513A03;
+			remoteInfo = Parliament;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EC3E42F2BBC9E5B00513A03 /* Parliament.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parliament.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC3E4322BBC9E5B00513A03 /* ParliamentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParliamentApp.swift; sourceTree = "<group>"; };
+		5EC3E4342BBC9E5B00513A03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EC3E4362BBC9E5C00513A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EC3E4392BBC9E5C00513A03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EC3E43F2BBC9E5C00513A03 /* ParliamentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParliamentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC3E4432BBC9E5C00513A03 /* ParliamentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParliamentTests.swift; sourceTree = "<group>"; };
+		5EC3E4492BBC9E5C00513A03 /* ParliamentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParliamentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC3E44D2BBC9E5C00513A03 /* ParliamentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParliamentUITests.swift; sourceTree = "<group>"; };
+		5EC3E44F2BBC9E5C00513A03 /* ParliamentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParliamentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EC3E42C2BBC9E5B00513A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC3E43C2BBC9E5C00513A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC3E4462BBC9E5C00513A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EC3E4262BBC9E5B00513A03 = {
+			isa = PBXGroup;
+			children = (
+				5EC3E4312BBC9E5B00513A03 /* Parliament */,
+				5EC3E4422BBC9E5C00513A03 /* ParliamentTests */,
+				5EC3E44C2BBC9E5C00513A03 /* ParliamentUITests */,
+				5EC3E4302BBC9E5B00513A03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EC3E4302BBC9E5B00513A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E42F2BBC9E5B00513A03 /* Parliament.app */,
+				5EC3E43F2BBC9E5C00513A03 /* ParliamentTests.xctest */,
+				5EC3E4492BBC9E5C00513A03 /* ParliamentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EC3E4312BBC9E5B00513A03 /* Parliament */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E4322BBC9E5B00513A03 /* ParliamentApp.swift */,
+				5EC3E4342BBC9E5B00513A03 /* ContentView.swift */,
+				5EC3E4362BBC9E5C00513A03 /* Assets.xcassets */,
+				5EC3E4382BBC9E5C00513A03 /* Preview Content */,
+			);
+			path = Parliament;
+			sourceTree = "<group>";
+		};
+		5EC3E4382BBC9E5C00513A03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E4392BBC9E5C00513A03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EC3E4422BBC9E5C00513A03 /* ParliamentTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E4432BBC9E5C00513A03 /* ParliamentTests.swift */,
+			);
+			path = ParliamentTests;
+			sourceTree = "<group>";
+		};
+		5EC3E44C2BBC9E5C00513A03 /* ParliamentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3E44D2BBC9E5C00513A03 /* ParliamentUITests.swift */,
+				5EC3E44F2BBC9E5C00513A03 /* ParliamentUITestsLaunchTests.swift */,
+			);
+			path = ParliamentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EC3E42E2BBC9E5B00513A03 /* Parliament */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC3E4532BBC9E5C00513A03 /* Build configuration list for PBXNativeTarget "Parliament" */;
+			buildPhases = (
+				5EC3E42B2BBC9E5B00513A03 /* Sources */,
+				5EC3E42C2BBC9E5B00513A03 /* Frameworks */,
+				5EC3E42D2BBC9E5B00513A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parliament;
+			productName = Parliament;
+			productReference = 5EC3E42F2BBC9E5B00513A03 /* Parliament.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC3E43E2BBC9E5C00513A03 /* ParliamentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC3E4562BBC9E5C00513A03 /* Build configuration list for PBXNativeTarget "ParliamentTests" */;
+			buildPhases = (
+				5EC3E43B2BBC9E5C00513A03 /* Sources */,
+				5EC3E43C2BBC9E5C00513A03 /* Frameworks */,
+				5EC3E43D2BBC9E5C00513A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC3E4412BBC9E5C00513A03 /* PBXTargetDependency */,
+			);
+			name = ParliamentTests;
+			productName = ParliamentTests;
+			productReference = 5EC3E43F2BBC9E5C00513A03 /* ParliamentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EC3E4482BBC9E5C00513A03 /* ParliamentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC3E4592BBC9E5C00513A03 /* Build configuration list for PBXNativeTarget "ParliamentUITests" */;
+			buildPhases = (
+				5EC3E4452BBC9E5C00513A03 /* Sources */,
+				5EC3E4462BBC9E5C00513A03 /* Frameworks */,
+				5EC3E4472BBC9E5C00513A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC3E44B2BBC9E5C00513A03 /* PBXTargetDependency */,
+			);
+			name = ParliamentUITests;
+			productName = ParliamentUITests;
+			productReference = 5EC3E4492BBC9E5C00513A03 /* ParliamentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EC3E4272BBC9E5B00513A03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5EC3E42E2BBC9E5B00513A03 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5EC3E43E2BBC9E5C00513A03 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5EC3E42E2BBC9E5B00513A03;
+					};
+					5EC3E4482BBC9E5C00513A03 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5EC3E42E2BBC9E5B00513A03;
+					};
+				};
+			};
+			buildConfigurationList = 5EC3E42A2BBC9E5B00513A03 /* Build configuration list for PBXProject "Parliament" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EC3E4262BBC9E5B00513A03;
+			productRefGroup = 5EC3E4302BBC9E5B00513A03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EC3E42E2BBC9E5B00513A03 /* Parliament */,
+				5EC3E43E2BBC9E5C00513A03 /* ParliamentTests */,
+				5EC3E4482BBC9E5C00513A03 /* ParliamentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EC3E42D2BBC9E5B00513A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC3E43A2BBC9E5C00513A03 /* Preview Assets.xcassets in Resources */,
+				5EC3E4372BBC9E5C00513A03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC3E43D2BBC9E5C00513A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC3E4472BBC9E5C00513A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EC3E42B2BBC9E5B00513A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC3E4352BBC9E5B00513A03 /* ContentView.swift in Sources */,
+				5EC3E4332BBC9E5B00513A03 /* ParliamentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC3E43B2BBC9E5C00513A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC3E4442BBC9E5C00513A03 /* ParliamentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC3E4452BBC9E5C00513A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC3E44E2BBC9E5C00513A03 /* ParliamentUITests.swift in Sources */,
+				5EC3E4502BBC9E5C00513A03 /* ParliamentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC3E4412BBC9E5C00513A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC3E42E2BBC9E5B00513A03 /* Parliament */;
+			targetProxy = 5EC3E4402BBC9E5C00513A03 /* PBXContainerItemProxy */;
+		};
+		5EC3E44B2BBC9E5C00513A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC3E42E2BBC9E5B00513A03 /* Parliament */;
+			targetProxy = 5EC3E44A2BBC9E5C00513A03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EC3E4512BBC9E5C00513A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EC3E4522BBC9E5C00513A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EC3E4542BBC9E5C00513A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Parliament/Preview Content\"";
+				DEVELOPMENT_TEAM = VAS7WN5C52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pskrzypek.Parliament;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC3E4552BBC9E5C00513A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Parliament/Preview Content\"";
+				DEVELOPMENT_TEAM = VAS7WN5C52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pskrzypek.Parliament;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC3E4572BBC9E5C00513A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VAS7WN5C52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pskrzypek.ParliamentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parliament.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parliament";
+			};
+			name = Debug;
+		};
+		5EC3E4582BBC9E5C00513A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VAS7WN5C52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pskrzypek.ParliamentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parliament.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parliament";
+			};
+			name = Release;
+		};
+		5EC3E45A2BBC9E5C00513A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VAS7WN5C52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pskrzypek.ParliamentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parliament;
+			};
+			name = Debug;
+		};
+		5EC3E45B2BBC9E5C00513A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VAS7WN5C52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pskrzypek.ParliamentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parliament;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EC3E42A2BBC9E5B00513A03 /* Build configuration list for PBXProject "Parliament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC3E4512BBC9E5C00513A03 /* Debug */,
+				5EC3E4522BBC9E5C00513A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC3E4532BBC9E5C00513A03 /* Build configuration list for PBXNativeTarget "Parliament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC3E4542BBC9E5C00513A03 /* Debug */,
+				5EC3E4552BBC9E5C00513A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC3E4562BBC9E5C00513A03 /* Build configuration list for PBXNativeTarget "ParliamentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC3E4572BBC9E5C00513A03 /* Debug */,
+				5EC3E4582BBC9E5C00513A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC3E4592BBC9E5C00513A03 /* Build configuration list for PBXNativeTarget "ParliamentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC3E45A2BBC9E5C00513A03 /* Debug */,
+				5EC3E45B2BBC9E5C00513A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EC3E4272BBC9E5B00513A03 /* Project object */;
+}
